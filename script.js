@@ -50,7 +50,7 @@ if (data[index].author == null) {
 
 let htmlthought = `<div class="alert alert-outline-primary">
 			${data[index].text}<br>
-			<span style="color:#00ffc5;">
+			<span style="color:white;">
 				${data[index].author}
 			</span>
 		</div>`;
