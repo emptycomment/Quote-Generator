@@ -48,11 +48,11 @@ if (data[index].author == null) {
 	data[index].author = "unknown";
 }
 
-let htmlthought = <div class="alert alert-outline-primary">
+let htmlthought = '<div class="alert alert-outline-primary">
 			${data[index].text}<br><br>
 			<span style="color:white;">-
 				${data[index].author}
 			</span>
-		</div>;
+		</div>';
 thought.innerHTML = htmlthought;
 }
