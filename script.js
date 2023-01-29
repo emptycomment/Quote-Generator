@@ -49,7 +49,7 @@ if (data[index].author == null) {
 }
 
 let htmlthought = `<div class="alert alert-outline-primary">
-			countnum.value
+			${data[index].text}
 			${data[index].text}<br><br>
 			<span style="color:white;">-
 				${data[index].author}
